@@ -1,0 +1,25 @@
+{
+    "name": "medi-aid-backend",
+    "version": "0.1.0",
+    "description": "Backend for Medi-aid health care website - minimal Express + Mongoose scaffold",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^16.0.0",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.3.4",
+        "morgan": "^1.10.0",
+        "cors": "^2.8.5"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
